@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 90%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #272424;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-text{
+    margin-top: 22rem;
+    font-size: 2rem
+}
+
+.social-media a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid #af9f9f;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #0a0a0a;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5rem ease;
+    box-shadow: 0 .5rem 1rem #b6b6b6;
+}
+
+.social-media a:hover
+{
+    background: #0a0a0a;
+    color: #272424;
+    box-shadow: 0 .5rem 1rem #000;
+}
+
+.btn
+{
+    display: inline-block;
+    color: #000;
+    margin: 1rem .7rem 1rem;
+    padding-bottom: 2rem 2rem 2rem;
+    padding: .8rem 2rem;
+    background: #af9f9f;
+    border-radius: 4rem;
+    box-shadow: 0 .5rem 1rem #b6b6b6;
+}
+
+.btn:hover{
+    box-shadow: .2rem .5rem 1rem #0a0a0a
+}
